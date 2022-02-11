@@ -1,0 +1,414 @@
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.back1 {
+  position: absolute;
+  width: 58.894rem;
+  height: 45.437rem;
+  left: 40.007rem;
+  top: 8.412rem;
+  z-index: -5;
+}
+
+.back2 {
+  position: absolute;
+  width: 52.034rem;
+  height: 39.344rem;
+  left: -10rem;
+  top: 68.429rem;
+  z-index: -5;
+}
+
+.back3 {
+  position: absolute;
+  width: 65.468rem;
+  height: 53.969rem;
+  left: 36.188rem;
+  top: 135.038rem;
+  z-index: -5;
+}
+
+.back4 {
+  position: absolute;
+  width: 65.689rem;
+  height: 44.076rem;
+  left: -10.161rem;
+  top: 202.862rem;
+  z-index: -5;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 113px;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.navLogo {
+  height: 55%;
+  width: auto;
+  margin: 15rem;
+}
+
+.navButtons {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin: 0 10rem 0 0;
+}
+
+.navButtons > button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 0 5rem 0 0;
+}
+
+.navButtons > button:hover {
+  text-decoration: underline 3px#349C7D;
+}
+
+.content {
+  background: transparent;
+  margin: 113px 0 0 0;
+  font-family: Poppins;
+}
+
+section {
+  margin: 10% 0 0 0;
+}
+
+.welcomeTitle {
+  margin: 5% 0 0 15%;
+}
+
+.welcomeInfo {
+  display: flex;
+  margin: 0 0 0 16%;
+}
+
+.welcomeInfoRight {
+  margin: 0 0 0 1.5%;
+}
+
+.welcomeInfo1 {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.welcomeInfo2 {
+  font-weight: 500;
+  font-size: 14px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.welcomeInfo3 {
+  font-weight: 500;
+  font-size: 14px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.welcomeInfo4 {
+  font-weight: 500;
+  font-size: 14px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin: 13% 0 0 48.85%;
+  border: none;
+  background: transparent;
+}
+
+.contentArrow {
+  width: 23px;
+  height: auto;
+}
+
+.oneFlex {
+  display: flex;
+  margin: 0 15% 0 15%;
+  align-items: center;
+}
+
+.twoFlex {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+}
+
+.twoFlex .title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.twoFlex .tag {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.twoFlex .tag p {
+  margin: 0 0 0 2%;
+  padding: 0 1%;
+  border: solid 1px;
+  border-radius: 50px 50px 50px 50px;
+  font-size: 0.8rem;
+}
+
+.twoFlex .second {
+  margin: 20% 0 0 0;
+}
+
+.longImg {
+  width: 29.313rem;
+  height: 39.293rem;
+}
+
+.shortImg {
+  width: 29.313rem;
+  height: 23.875rem;
+}
+
+.threeFlex {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.threeFlex > svg {
+  margin: 5% 0 0 0;
+}
+
+.threeFlexInterest {
+  width: 7.813rem;
+  height: 34.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.threeFlexTools {
+  width: 7.813rem;
+  height: 34.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.threeFlexTools .figma {
+  width: 3.042rem;
+  height: 5.063rem;
+}
+
+.threeFlexTools .procreate {
+  width: 5.563rem;
+  height: 5.563rem;
+}
+
+.threeFlexTools > img {
+  width: 5.063rem;
+  height: 5.063rem;
+}
+
+.fourFlex {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  height: 6.8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.oneAva {
+  width: 383px;
+  height: 480px;
+  margin: 0 10% 0 0;
+}
+
+.oneFlexInfo > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.oneFlexInfo {
+  text-align: left;
+}
+
+.one {
+  margin: 0;
+  border-radius: 50px 50px 50px 50px;
+  width: 20px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.5);
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.two {
+  margin: 0;
+  border-radius: 50px 50px 50px 50px;
+  width: 20px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.5);
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.three {
+  margin: 0;
+  border-radius: 50px 50px 50px 50px;
+  width: 20px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.5);
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.four {
+  margin: 0;
+  border-radius: 50px 50px 50px 50px;
+  width: 20px;
+  height: auto;
+  color: rgba(0, 0, 0, 0.5);
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.oneTitle {
+  margin: 1% 0 5% 0;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+.twoTitle {
+  margin: 1% 0 5% 0;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+.threeTitle {
+  margin: 1% 0 0 0;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+.fourTitle {
+  margin: 1% 0 2% 0;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2rem 0 0 0;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone > p {
+  margin: 0 0 0 3.5%;
+}
+
+.email > p {
+  margin: 0 0 0 3.5%;
+}
+
+.threeFlexTools > h1 {
+  text-decoration: underline;
+}
+
+.threeFlexInterest > h1 {
+  text-decoration: underline;
+}
+
+.fourFlexSocial > h1 {
+  text-decoration: underline;
+}
+
+.fourFlexContact > h1 {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
